@@ -168,7 +168,7 @@ local Label2 = Instance.new("TextLabel")
 local DeveloperImage = Instance.new("ImageLabel")
 local DeveloperImageUICorner = Instance.new("UICorner")
 local NotifSound = Instance.new("Sound")
-local DeveloperID = 3323558881
+local DeveloperID = 4077998514
 
 UIClick.Parent = game.Workspace
 UIClick.SoundId = "rbxassetid://6895079853"
@@ -467,7 +467,7 @@ NotesText.BackgroundTransparency = 1
 NotesText.Position = UDim2.new(0.5, 0, 0.05, 0)
 NotesText.Size = UDim2.new(0, 1, 0, 1)
 NotesText.Font = Enum.Font.Code
-NotesText.Text = "Notes"
+NotesText.Text = "NotesTe"
 NotesText.TextColor3 = HeadUI.TextColor3
 NotesText.TextTransparency = 0.5
 NotesText.TextSize = 20
@@ -492,12 +492,12 @@ CloseNotesFrameButtonUICorner.Parent = CloseNotesFrameButton
 CloseNotesFrameButton.MouseButton1Click:Connect(function()
 UIClick:Play()
 NotesFrame.Visible = false
-writefile("ScriptDATA.ECCS", ""..ScriptTextBox.Text)
-writefile("Note1.ECCS", ""..NoteTextBox1.Text)
-writefile("Note2.ECCS", ""..NoteTextBox2.Text)
-writefile("Note3.ECCS", ""..NoteTextBox3.Text)
-writefile("Note4.ECCS", ""..NoteTextBox4.Text)
-writefile("Note5.ECCS", ""..NoteTextBox5.Text)
+writefile("ScriptDATA.Void", ""..ScriptTextBox.Text)
+writefile("Note1.Void", ""..NoteTextBox1.Text)
+writefile("Note2.Void", ""..NoteTextBox2.Text)
+writefile("Note3.Void", ""..NoteTextBox3.Text)
+writefile("Note4.Void", ""..NoteTextBox4.Text)
+writefile("Note5.Void", ""..NoteTextBox5.Text)
 end)
  
 NotesButtonsFrame1.Name = "NotesButtonsFrame1"
@@ -549,7 +549,7 @@ NoteTextBox1SaveButtonUICorner.Parent = NoteTextBox1SaveButton
 NoteTextBox1SaveButton.MouseButton1Click:Connect(function()
 UIClick:Play()
 setclipboard(""..NoteTextBox1.Text)
-writefile("Note1.ECCS", ""..NoteTextBox1.Text)
+writefile("Note1.Void", ""..NoteTextBox1.Text)
 end)
  
 NoteTextBox1ClearButton.Name = "NoteTextBox1ClearButton"
@@ -572,7 +572,7 @@ NoteTextBox1ClearButtonUICorner.Parent = NoteTextBox1ClearButton
 NoteTextBox1ClearButton.MouseButton1Click:Connect(function()
 UIClick:Play()
 NoteTextBox1.Text = "Note"
-writefile("Note1.ECCS", ""..NoteTextBox1.Text)
+writefile("Note1.Void", ""..NoteTextBox1.Text)
 end)
  
 NotesButtonsFrame2.Name = "NotesButtonsFrame2"
@@ -624,7 +624,7 @@ NoteTextBox2SaveButtonUICorner.Parent = NoteTextBox2SaveButton
 NoteTextBox2SaveButton.MouseButton1Click:Connect(function()
 UIClick:Play()
 setclipboard(""..NoteTextBox2.Text)
-writefile("Note2.ECCS", ""..NoteTextBox2.Text)
+writefile("Note2.Void", ""..NoteTextBox2.Text)
 end)
  
 NoteTextBox2ClearButton.Name = "NoteTextBox2ClearButton"
@@ -647,7 +647,7 @@ NoteTextBox2ClearButtonUICorner.Parent = NoteTextBox2ClearButton
 NoteTextBox2ClearButton.MouseButton1Click:Connect(function()
 UIClick:Play()
 NoteTextBox2.Text = "Note"
-writefile("Note2.ECCS", ""..NoteTextBox2.Text)
+writefile("Note2.Void", ""..NoteTextBox2.Text)
 end)
  
 NotesButtonsFrame3.Name = "NotesButtonsFrame3"
@@ -699,7 +699,7 @@ NoteTextBox3SaveButtonUICorner.Parent = NoteTextBox3SaveButton
 NoteTextBox3SaveButton.MouseButton1Click:Connect(function()
 UIClick:Play()
 setclipboard(""..NoteTextBox3.Text)
-writefile("Note3.ECCS", ""..NoteTextBox3.Text)
+writefile("Note3.Void", ""..NoteTextBox3.Text)
 end)
  
 NoteTextBox3ClearButton.Name = "NoteTextBox3ClearButton"
@@ -722,7 +722,7 @@ NoteTextBox3ClearButtonUICorner.Parent = NoteTextBox3ClearButton
 NoteTextBox3ClearButton.MouseButton1Click:Connect(function()
 UIClick:Play()
 NoteTextBox3.Text = "Note"
-writefile("Note3.ECCS", ""..NoteTextBox3.Text)
+writefile("Note3.Void", ""..NoteTextBox3.Text)
 end)
  
 NotesButtonsFrame4.Name = "NotesButtonsFrame4"
@@ -774,7 +774,7 @@ NoteTextBox4SaveButtonUICorner.Parent = NoteTextBox4SaveButton
 NoteTextBox4SaveButton.MouseButton1Click:Connect(function()
 UIClick:Play()
 setclipboard(""..NoteTextBox4.Text)
-writefile("Note4.ECCS", ""..NoteTextBox4.Text)
+writefile("Note4.Void", ""..NoteTextBox4.Text)
 end)
  
 NoteTextBox4ClearButton.Name = "NoteTextBox4ClearButton"
@@ -797,7 +797,7 @@ NoteTextBox4ClearButtonUICorner.Parent = NoteTextBox4ClearButton
 NoteTextBox4ClearButton.MouseButton1Click:Connect(function()
 UIClick:Play()
 NoteTextBox4.Text = "Note"
-writefile("Note4.ECCS", ""..NoteTextBox4.Text)
+writefile("Note4.Void", ""..NoteTextBox4.Text)
 end)
  
 NotesButtonsFrame5.Name = "NotesButtonsFrame5"
@@ -849,7 +849,7 @@ NoteTextBox5SaveButtonUICorner.Parent = NoteTextBox5SaveButton
 NoteTextBox5SaveButton.MouseButton1Click:Connect(function()
 UIClick:Play()
 setclipboard(""..NoteTextBox5.Text)
-writefile("Note5.ECCS", ""..NoteTextBox5.Text)
+writefile("Note5.Void", ""..NoteTextBox5.Text)
 end)
  
 NoteTextBox5ClearButton.Name = "NoteTextBox5ClearButton"
@@ -872,7 +872,7 @@ NoteTextBox5ClearButtonUICorner.Parent = NoteTextBox5ClearButton
 NoteTextBox5ClearButton.MouseButton1Click:Connect(function()
 UIClick:Play()
 NoteTextBox5.Text = "Note"
-writefile("Note5.ECCS", ""..NoteTextBox5.Text)
+writefile("Note5.Void", ""..NoteTextBox5.Text)
 end)
  
 ScrollingFrameForNotesFrame.CanvasSize = UDim2.new(0, 0, 4, 0)
@@ -947,12 +947,12 @@ CloseExecutorButtonUICorner.Parent = CloseExecutorButton
 CloseExecutorButton.MouseButton1Click:Connect(function()
 UIClick:Play()
 ExecutorFrame.Visible = false
-writefile("ScriptDATA.ECCS", ""..ScriptTextBox.Text)
-writefile("Note1.ECCS", ""..NoteTextBox1.Text)
-writefile("Note2.ECCS", ""..NoteTextBox2.Text)
-writefile("Note3.ECCS", ""..NoteTextBox3.Text)
-writefile("Note4.ECCS", ""..NoteTextBox4.Text)
-writefile("Note5.ECCS", ""..NoteTextBox5.Text)
+writefile("ScriptDATA.Void", ""..ScriptTextBox.Text)
+writefile("Note1.Void", ""..NoteTextBox1.Text)
+writefile("Note2.Void", ""..NoteTextBox2.Text)
+writefile("Note3.Void", ""..NoteTextBox3.Text)
+writefile("Note4.Void", ""..NoteTextBox4.Text)
+writefile("Note5.Void", ""..NoteTextBox5.Text)
 end)
  
 
@@ -995,7 +995,7 @@ ScriptTextBox.Position = UDim2.new(0, 0, 0, 0)
 ScriptTextBox.Size = UDim2.new(0, 340, 0, 1040)
 ScriptTextBox.Font = Enum.Font.Code
 ScriptTextBox.FontSize = Enum.FontSize.Size18
-ScriptTextBox.Text = "print(\"ECCS•Executor V2\")"
+ScriptTextBox.Text = "print(\"~Void Panel X\")"
 ScriptTextBox.ClearTextOnFocus = false
 ScriptTextBox.TextColor3 = HeadUI.TextColor3
 ScriptTextBox.TextTransparency = 0.5
@@ -1023,7 +1023,7 @@ ExecuteButton1UICorner.Parent = ExecuteButton1
  
 ExecuteButton1.MouseButton1Click:Connect(function()
 UIClick:Play()
-writefile("ScriptDATA.ECCS", ""..ScriptTextBox.Text)
+writefile("ScriptDATA.Void", ""..ScriptTextBox.Text)
 loadstring(ScriptTextBox.Text)()
 end)
 
@@ -1730,31 +1730,31 @@ ClockSettingsButtonUICorner.Parent = ClockSettingsButton
 ClockSettingsButtonUICorner.CornerRadius = UDim.new(0, 8)
 
 
-if not isfile("ScriptDATA.ECCS") then
-writefile("ScriptDATA.ECCS", ""..ScriptTextBox.Text)
-writefile("Note1.ECCS", ""..NoteTextBox1.Text)
-writefile("Note2.ECCS", ""..NoteTextBox2.Text)
-writefile("Note3.ECCS", ""..NoteTextBox3.Text)
-writefile("Note4.ECCS", ""..NoteTextBox4.Text)
-writefile("Note5.ECCS", ""..NoteTextBox5.Text)
+if not isfile("ScriptDATA.Void") then
+writefile("ScriptDATA.Void", ""..ScriptTextBox.Text)
+writefile("Note1.Void", ""..NoteTextBox1.Text)
+writefile("Note2.Void", ""..NoteTextBox2.Text)
+writefile("Note3.Void", ""..NoteTextBox3.Text)
+writefile("Note4.Void", ""..NoteTextBox4.Text)
+writefile("Note5.Void", ""..NoteTextBox5.Text)
 end
 
-if not isfile("Note1.ECCS") then
-writefile("ScriptDATA.ECCS", ""..ScriptTextBox.Text)
-writefile("Note1.ECCS", ""..NoteTextBox1.Text)
-writefile("Note2.ECCS", ""..NoteTextBox2.Text)
-writefile("Note3.ECCS", ""..NoteTextBox3.Text)
-writefile("Note4.ECCS", ""..NoteTextBox4.Text)
-writefile("Note5.ECCS", ""..NoteTextBox5.Text)
+if not isfile("Note1.Void") then
+writefile("ScriptDATA.Void", ""..ScriptTextBox.Text)
+writefile("Note1.Void", ""..NoteTextBox1.Text)
+writefile("Note2.Void", ""..NoteTextBox2.Text)
+writefile("Note3.Void", ""..NoteTextBox3.Text)
+writefile("Note4.Void", ""..NoteTextBox4.Text)
+writefile("Note5.Void", ""..NoteTextBox5.Text)
 end
 
-if not isfile("Note2.ECCS") then
-writefile("ScriptDATA.ECCS", ""..ScriptTextBox.Text)
-writefile("Note1.ECCS", ""..NoteTextBox1.Text)
-writefile("Note2.ECCS", ""..NoteTextBox2.Text)
-writefile("Note3.ECCS", ""..NoteTextBox3.Text)
-writefile("Note4.ECCS", ""..NoteTextBox4.Text)
-writefile("Note5.ECCS", ""..NoteTextBox5.Text)
+if not isfile("Note2.Void") then
+writefile("ScriptDATA.Void", ""..ScriptTextBox.Text)
+writefile("Note1.Void", ""..NoteTextBox1.Text)
+writefile("Note2.Void", ""..NoteTextBox2.Text)
+writefile("Note3.Void", ""..NoteTextBox3.Text)
+writefile("Note4.Void", ""..NoteTextBox4.Text)
+writefile("Note5.Void", ""..NoteTextBox5.Text)
 end
 
 if not isfile("Note3.ECCS") then
@@ -1832,7 +1832,7 @@ Label2.BackgroundTransparency = 1
 Label2.Position = UDim2.new(0.5, 0, 0.5, 0)
 Label2.Size = UDim2.new(0, 1, 0, 1)
 Label2.Font = Enum.Font.SourceSansBold
-Label2.Text = "The developer \"ERROR_CODE\"\n has joined to the experience. \nDon't swear until he \ngets out of the experience and everything will be fine."
+Label2.Text = "The developer \"Ozan36yt\"\n has joined to the experience. \nDon't swear until he \ngets out of the experience and everything will be fine."
 Label2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Label2.TextSize = 20
  
@@ -1841,7 +1841,7 @@ if player.UserId == DeveloperID then
 NotifSound:Play()
 NotifFrame:TweenSize(UDim2.new(0, 400, 0, 250), 'Out', 4, true)
 wait(0.5)
-Label2.Text = "The developer \"ERROR_CODE\"\n has joined to the experience. \nDon't swear until he \ngets out of the experience and everything will be fine."
+Label2.Text = "The developer \"Ozan36yt\"\n has joined to the experience. \nDon't swear until he \ngets out of the experience and everything will be fine."
 DeveloperImage.Visible = true
 Label1.Visible = true
 Label2.Visible = true
@@ -1860,7 +1860,7 @@ if player.UserId == DeveloperID then
 NotifSound:Play()
 NotifFrame:TweenSize(UDim2.new(0, 400, 0, 250), 'Out', 4, true)
 wait(0.5)
-Label2.Text = "The developer \"ERROR_CODE\"\n has leaved."
+Label2.Text = "The developer \"Ozan36yt\"\n has leaved."
 DeveloperImage.Visible = true
 Label1.Visible = true
 Label2.Visible = true
@@ -1952,32 +1952,32 @@ SettingsFrame.Visible = true
 end
 end)
 
-local ReadScript = readfile("ScriptDATA.ECCS")
+local ReadScript = readfile("ScriptDATA.Void")
 ScriptTextBox.Text = ""..ReadScript
 
 
-local ReadNote1 = readfile("Note1.ECCS")
+local ReadNote1 = readfile("Note1.Void")
 NoteTextBox1.Text = ""..ReadNote1
  
  
  
-local ReadNote2 = readfile("Note2.ECCS")
+local ReadNote2 = readfile("Note2.Void")
 NoteTextBox2.Text = ""..ReadNote2
  
  
  
-local ReadNote3 = readfile("Note3.ECCS")
+local ReadNote3 = readfile("Note3.Void")
 NoteTextBox3.Text = ""..ReadNote3
  
  
  
-local ReadNote4 = readfile("Note4.ECCS")
+local ReadNote4 = readfile("Note4.Void")
 NoteTextBox4.Text = ""..ReadNote4
 
  
  
  
-local ReadNote5 = readfile("Note5.ECCS")
+local ReadNote5 = readfile("Note5.Void")
 NoteTextBox5.Text = ""..ReadNote5
 
 while wait() do
